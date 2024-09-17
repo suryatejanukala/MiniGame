@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 70%;
+    height: 500px;
+    background-color: aqua;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#leftContainer, #rightContainer{
+    width: 50%;
+    height: 500px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.leftCircle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: red;
+    margin-top: 13%;
+    margin-left: 1%;
+}
+
+.rigthCircle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: red;
+    margin-top: 13%;
+    margin-left: 84%;
+    transition: transform 0.5s, background-color 0.1s 0.5s;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    background-color: brown;
+    border: none;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    margin-left: 20%;
+}
